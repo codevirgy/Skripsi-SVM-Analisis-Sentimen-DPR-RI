@@ -40,19 +40,3 @@ Berikut adalah entitas kata yang memiliki signifikansi dan bobot tertinggi dalam
 5. `indonesia` (0,0155)
 
 ---
-
-## 📂 Struktur Repositori
-
-```text
-📦 Skripsi-Sentimen-DPR-SVM
- ┣ 📂 Dataset
- ┃ ┣ 📜 01_dataset_raw.csv              # Data mentah hasil crawling dari platform X
- ┃ ┗ 📜 01_dataset_labeled.csv          # Data bersih dengan anotasi label InSet Lexicon
- ┣ 📂 Notebook
- ┃ ┗ 📜 Metode_SVM_Skripsi_Final.ipynb  # Source code utama (Preprocessing - Evaluasi)
- ┣ 📂 Visualisasi
- ┃ ┣ 📜 cm_rbf.png                      # Gambar Confusion Matrix skenario 80:20
- ┃ ┣ 📜 komparasi_kernel.png            # Bar chart komparasi 4 kernel SVM
- ┃ ┣ 📜 metrik_evaluasi.png             # Histogram performa akhir
- ┃ ┗ 📜 learning_curve.png              # Grafik evaluasi batas overfitting model
- ┗ 📜 README.md                         # Dokumentasi informasi repositori
